@@ -1,4 +1,13 @@
 ﻿  Compiling game modules for hot reload
-  Target is up to date
+  Parsing headers for BuildingEscapeEditor
+    Running UnrealHeaderTool "C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\BuildingEscape.uproject" "C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BuildingEscapeEditor in 14.3361328 seconds
+  Performing 4 actions (2 in parallel)
+  OpenDoor.gen.cpp
+  OpenDoor.cpp
+  [3/4] Link UE4Editor-BuildingEscape-2041.dll
+  [4/4] Link UE4Editor-BuildingEscape-2041.lib
+     Creating library C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.lib and object C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.exp
+     Creating library C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.suppressed.lib and object C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.suppressed.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 1.51 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 23.62 seconds (Local executor: 7.07 seconds)
