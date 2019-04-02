@@ -1,13 +1,23 @@
-﻿  Compiling game modules for hot reload
+﻿  Cleaning BuildingEscapeEditor Binaries...
+  Creating makefile for BuildingEscapeEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
   Parsing headers for BuildingEscapeEditor
     Running UnrealHeaderTool "C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\BuildingEscape.uproject" "C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscapeEditor in 14.3361328 seconds
-  Performing 4 actions (2 in parallel)
-  OpenDoor.gen.cpp
+  Reflection code generated for BuildingEscapeEditor in 10.9703881 seconds
+  Performing 12 actions (2 in parallel)
+  BuildingEscape.cpp
+  BuildingEscapeGameModeBase.cpp
   OpenDoor.cpp
-  [3/4] Link UE4Editor-BuildingEscape-2041.dll
-  [4/4] Link UE4Editor-BuildingEscape-2041.lib
-     Creating library C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.lib and object C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.exp
-     Creating library C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.suppressed.lib and object C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape-2041.suppressed.exp
+  PositionReport.cpp
+  BuildingEscape.init.gen.cpp
+  BuildingEscapeGameModeBase.gen.cpp
+  OpenDoor.gen.cpp
+  PositionReport.gen.cpp
+  [9/12] Resource ModuleVersionResource.rc.inl
+  [10/12] Resource PCLaunch.rc
+  [11/12] Link UE4Editor-BuildingEscape.dll
+  [12/12] Link UE4Editor-BuildingEscape.lib
+     Creating library C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+     Creating library C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object C:\Users\Rone Caballero\Desktop\Projects\Unreal\Unreal2\Section03\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
   Deploying BuildingEscapeEditor Win64 Development...
-  Total build time: 23.62 seconds (Local executor: 7.07 seconds)
+  Total build time: 41.66 seconds (Local executor: 21.97 seconds)

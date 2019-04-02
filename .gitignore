@@ -6,7 +6,9 @@
 */Intermediate
 */Saved
 */ipch
-BuildingEscape/Content/StarterContent/
+BuildingEscape/Content/StarterContent/Textures
+BuildingEscape/Content/StarterContent/HDRI
 
-*.db
+*.VC.db
+*.suo
 *.ipch
