@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__OpenAngle() { return STRUCT_OFFSET(UOpenDoor, OpenAngle); } \
-	FORCEINLINE static uint32 __PPO__PressurePLate() { return STRUCT_OFFSET(UOpenDoor, PressurePLate); }
+	FORCEINLINE static uint32 __PPO__PressurePLate() { return STRUCT_OFFSET(UOpenDoor, PressurePLate); } \
+	FORCEINLINE static uint32 __PPO__DoorCloseDelay() { return STRUCT_OFFSET(UOpenDoor, DoorCloseDelay); }
 
 
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_13_PROLOG
