@@ -46,6 +46,8 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	if (!PhysicsHandle) { return; }
+
 	//if Physisc Handle is attached
 	if (PhysicsHandle->GrabbedComponent) {
 		//Move object
@@ -62,6 +64,8 @@ void UGrabber::Grab() {
 	auto ActorHit = HitResult.GetActor();
 
 	if (ActorHit) {
+
+		if (!PhysicsHandle) { return; }
 		//attache Physics handle
 		PhysicsHandle->GrabComponentAtLocationWithRotation(
 			ComponentToGrab,
@@ -73,6 +77,7 @@ void UGrabber::Grab() {
 }
 
 void UGrabber::Release() {
+	if (!PhysicsHandle) { return; }
 	PhysicsHandle->ReleaseComponent();
 }
 
