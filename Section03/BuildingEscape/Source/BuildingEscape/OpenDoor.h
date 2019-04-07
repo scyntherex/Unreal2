@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/PrimitiveComponent.h"
 #include "Components/ActorComponent.h"
 #include "Engine/TriggerVolume.h"
 #include "Engine/World.h"
@@ -31,6 +32,7 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+
 private:
 	UPROPERTY(EditAnywhere)
 	float OpenAngle = 90.f;
@@ -43,6 +45,8 @@ private:
 
 	float LastDoorOpenTime;
 
-	AActor* ActorThatOpens; //Remember pawn inherits Actor
 	AActor* Owner = GetOwner();
+
+	//Returns total mass in Kg.
+	float GetTotalMassOfActorsOnPlate();
 };
