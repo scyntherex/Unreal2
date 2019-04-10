@@ -13,6 +13,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define BUILDINGESCAPE_OpenDoor_generated_h
 
+#define BuildingEscape_Source_BuildingEscape_OpenDoor_h_12_DELEGATE \
+static inline void FOnOpenRequest_DelegateWrapper(const FMulticastScriptDelegate& OnOpenRequest) \
+{ \
+	OnOpenRequest.ProcessMulticastDelegate<UObject>(NULL); \
+}
+
+
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_17_RPC_WRAPPERS
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_17_RPC_WRAPPERS_NO_PURE_DECLS
 #define BuildingEscape_Source_BuildingEscape_OpenDoor_h_17_INCLASS_NO_PURE_DECLS \
